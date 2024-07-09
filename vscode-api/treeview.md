@@ -110,7 +110,7 @@ vscode.commands.registerCommand('yourProvider.refreshEntry', () => yourProvider.
             }
         ]
     }
-},
+}
 ```
 
 
@@ -300,7 +300,6 @@ vscode.commands.registerCommand('web-component-custom.deleteEntry', () => vscode
 export function activate(context: vscode.ExtensionContext) {
     vscode.window.registerTreeDataProvider('视图id', new DepNodeProvider()); // 无返回
 }
-
 ```
 
 > 创建一个树视图, 并提供数据
